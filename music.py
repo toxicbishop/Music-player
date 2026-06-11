@@ -13,7 +13,7 @@ def play_music(folder_path, song_file):
     pygame.mixer.music.load(file_path)
     pygame.mixer.music.play()
     print(f"Now playing: {song_file}")
-    print("Commands: [P]ause, [R]esume, S[t]op, [Q]uit")
+    print("Commands: [P]ause, [R]esume, [S]top, [Q]uit")
     while True:
         command = input("> ").upper()
         
@@ -23,9 +23,9 @@ def play_music(folder_path, song_file):
         elif command == 'R':
             pygame.mixer.music.unpause()
             print("Music resumed.")
-        elif command == 'S':
+        elif command == 'S' or command == 'Q':
             pygame.mixer.music.stop()
-            print("Music stopped.")
+            print("Music stopped. Returning to menu...")
             return
         else:
             print("Invalid Command")

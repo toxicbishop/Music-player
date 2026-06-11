@@ -1,42 +1,43 @@
-# 🎵 Music Player with Python
+# Music Player with Python
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/toxicbishop/Music-with-python/graphs/commit-activity)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-F4C542?style=for-the-badge&logo=python&logoColor=black)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)
 
 A modular and versatile music player ecosystem built with Python. From a lightweight CLI to a feature-rich modern GUI, this project offers multiple ways to enjoy your local music library.
 
 ---
 
-## 🚀 Quick Start (Latest Version)
+## Quick Start (Latest Version)
 
 To dive straight into the most advanced version (GUI v2):
 
 ```powershell
 # Navigate to the latest version
 cd Music-Player-GUI-version-2
-
+```
 
 ---
 
-## 📂 Evolution of the Project
+## Evolution of the Project
 
 This repository tracks the development of the music player through three distinct phases:
 
-### 💎 [GUI Version 2](./Music-Player-GUI-version-2/) (Latest)
+### [GUI Version 2](./Music-Player-GUI-version-2/) (Latest)
 The most advanced iteration with a focus on User Experience.
 - **Playlist Sidebar**: Real-time discovery of all tracks in your library.
 - **Smart Navigation**: Sequential playback with `Next` and `Previous` controls.
 - **Volume Management**: Integrated slider for precise audio control.
 - **Modern UI**: Sleek, responsive layout built with `customtkinter`.
 
-### 🛠️ [GUI Version 1](./Music-Player-GUI-version-1/)
+### [GUI Version 1](./Music-Player-GUI-version-1/)
 The initial transition from CLI to Graphical Interface.
 - Simple, distraction-free playback.
 - Single-file focus for testing core GUI logic.
 - Lightweight and fast.
 
-### 📜 [CLI Version](./music.py) (Legacy)
+### [CLI Version](./music.py) (Legacy)
 The core engine that started it all.
 - Terminal-based selection and control.
 - Zero GUI overhead.
@@ -44,16 +45,16 @@ The core engine that started it all.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-*   **🔍 Auto-Discovery**: Automatically scans the `music_files/` directory for `.mp3` and `.wav` files.
-*   **🎹 Intuitive Controls**: Full Play/Pause/Resume/Stop functionality across all versions.
-*   **🎨 Premium Aesthetics**: High-quality dark mode visuals powered by CustomTkinter.
-*   **🔊 Audio Engine**: Robust playback engine powered by the industry-standard `pygame.mixer`.
+*   **Auto-Discovery**: Automatically scans the `music_files/` directory for `.mp3` and `.wav` files.
+*   **Intuitive Controls**: Full Play/Pause/Resume/Stop functionality across all versions.
+*   **Premium Aesthetics**: High-quality dark mode visuals powered by CustomTkinter.
+*   **Audio Engine**: Robust playback engine powered by the industry-standard `pygame.mixer`.
 
 ---
 
-## 🛠️ Installation & Prerequisites
+## Installation & Prerequisites
 
 Ensure you have Python 3.x installed. Then, install the required dependencies:
 
@@ -68,7 +69,7 @@ pip install pygame customtkinter Pillow
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 .
@@ -82,22 +83,22 @@ pip install pygame customtkinter Pillow
 
 ---
 
-## 🎮 Controls (CLI Mode)
+## Controls (CLI Mode)
 
 | Action | Key | Description |
 | :--- | :--- | :--- |
 | **Pause** | `P` | Pauses current track |
 | **Resume** | `R` | Resumes from pause |
-| **Stop** | `S` | Returns to menu |
+| **Stop / Quit** | `S` / `Q` | Stops track and returns to menu |
 
 ---
 
-## 📜 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/toxicbishop">toxicbishop</a>
+  Made by <a href="https://github.com/toxicbishop">toxicbishop</a>
 </p>

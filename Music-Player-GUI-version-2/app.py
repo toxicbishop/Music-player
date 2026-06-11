@@ -59,21 +59,21 @@ class MusicPlayerV2(ctk.CTk):
         # Visualizer Placeholder / Image
         self.visualizer_frame = ctk.CTkFrame(self.main_frame, height=200, fg_color="#2b2b2b")
         self.visualizer_frame.grid(row=1, column=0, padx=40, pady=40, sticky="nsew")
-        self.vis_label = ctk.CTkLabel(self.visualizer_frame, text="🎵", font=("Roboto", 100))
+        self.vis_label = ctk.CTkLabel(self.visualizer_frame, text="Music", font=("Roboto", 40))
         self.vis_label.place(relx=0.5, rely=0.5, anchor="center")
 
         # Control Panel
         self.controls_frame = ctk.CTkFrame(self.main_frame, fg_color="transparent")
         self.controls_frame.grid(row=2, column=0, pady=20)
 
-        self.btn_prev = ctk.CTkButton(self.controls_frame, text="⏮", width=40, command=self.prev_song)
+        self.btn_prev = ctk.CTkButton(self.controls_frame, text="Prev", width=60, command=self.prev_song)
         self.btn_prev.grid(row=0, column=0, padx=10)
 
-        self.btn_play_pause = ctk.CTkButton(self.controls_frame, text="▶ Play", width=120, height=40, 
+        self.btn_play_pause = ctk.CTkButton(self.controls_frame, text="Play", width=120, height=40, 
                                             font=ctk.CTkFont(size=16, weight="bold"), command=self.toggle_play)
         self.btn_play_pause.grid(row=0, column=1, padx=10)
 
-        self.btn_next = ctk.CTkButton(self.controls_frame, text="⏭", width=40, command=self.next_song)
+        self.btn_next = ctk.CTkButton(self.controls_frame, text="Next", width=60, command=self.next_song)
         self.btn_next.grid(row=0, column=2, padx=10)
 
         # Volume Slider
@@ -120,7 +120,7 @@ class MusicPlayerV2(ctk.CTk):
         pygame.mixer.music.load(path)
         pygame.mixer.music.play()
         self.label_now_playing.configure(text=os.path.basename(path))
-        self.btn_play_pause.configure(text="⏸ Pause")
+        self.btn_play_pause.configure(text="Pause")
         self.is_paused = False
         
         # Highlight active song in playlist
@@ -137,11 +137,11 @@ class MusicPlayerV2(ctk.CTk):
 
         if self.is_paused:
             pygame.mixer.music.unpause()
-            self.btn_play_pause.configure(text="⏸ Pause")
+            self.btn_play_pause.configure(text="Pause")
             self.is_paused = False
         else:
             pygame.mixer.music.pause()
-            self.btn_play_pause.configure(text="▶ Play")
+            self.btn_play_pause.configure(text="Play")
             self.is_paused = True
 
     def next_song(self):
