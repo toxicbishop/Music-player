@@ -1,6 +1,6 @@
 import os
 os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "hide"
-import pygame
+import pygame # type: ignore
 
 def play_music(folder_path, song_file):
 
