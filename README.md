@@ -95,10 +95,4 @@ pip install pygame customtkinter Pillow
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
-
----
-
-<p align="center">
-  Made by <a href="https://github.com/toxicbishop">toxicbishop</a>
-</p>
+Distributed under the MIT License. See LICENSE [LICENSE] for more information.
