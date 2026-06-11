@@ -1,9 +1,9 @@
 # Music Player with Python
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pygame](https://img.shields.io/badge/Pygame-F4C542?style=for-the-badge&logo=python&logoColor=black)
-![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-F4C542?style=flat-square&logo=python&logoColor=black)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/toxicbishop/Music-with-python/graphs/commit-activity)
 
 A modular and versatile music player ecosystem built with Python. From a lightweight CLI to a feature-rich modern GUI, this project offers multiple ways to enjoy your local music library.
 
