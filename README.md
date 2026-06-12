@@ -15,7 +15,7 @@ To dive straight into the most advanced version (GUI v2):
 
 ```powershell
 # Navigate to the latest version
-cd Music-Player-GUI-version-2
+cd Music-Player-GUI-version-1.0.1
 ```
 
 ---
@@ -24,14 +24,14 @@ cd Music-Player-GUI-version-2
 
 This repository tracks the development of the music player through three distinct phases:
 
-### [GUI Version 2](./Music-Player-GUI-version-2/) (Latest)
+### [GUI Version 1.0.1](./Music-Player-GUI-version-1.0.1/) (Latest)
 The most advanced iteration with a focus on User Experience.
 - **Playlist Sidebar**: Real-time discovery of all tracks in your library.
 - **Smart Navigation**: Sequential playback with `Next` and `Previous` controls.
 - **Volume Management**: Integrated slider for precise audio control.
 - **Modern UI**: Sleek, responsive layout built with `customtkinter`.
 
-### [GUI Version 1](./Music-Player-GUI-version-1/)
+### [GUI Version 1.0.0](./Music-Player-GUI-version-1.0.0/)
 The initial transition from CLI to Graphical Interface.
 - Simple, distraction-free playback.
 - Single-file focus for testing core GUI logic.
@@ -73,8 +73,8 @@ pip install pygame customtkinter Pillow
 
 ```text
 .
-├── Music-Player-GUI-version-1/  # v1 Release
-├── Music-Player-GUI-version-2/  # v2 Release (Premium)
+├── Music-Player-GUI-version-1.0.0/  # v1.0.0 Release
+├── Music-Player-GUI-version-1.0.1/  # v1.0.1 Release (Premium)
 ├── music_files/                 # Your Audio Assets
 ├── music.py                     # Legacy CLI Script
 ├── LICENSE                      # MIT License
