@@ -1,6 +1,6 @@
 # Music Player with Python
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python 3.12.x](https://img.shields.io/badge/Python-3.12.x-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Pygame-F4C542?style=flat-square&logo=python&logoColor=black)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/toxicbishop/Music-with-python/graphs/commit-activity)
