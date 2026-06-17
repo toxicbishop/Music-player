@@ -59,7 +59,7 @@ The core engine that started it all.
 Ensure you have Python 3.x installed. Then, install the required dependencies:
 
 ```bash
-pip install pygame customtkinter Pillow
+pip install -r requirements.txt
 ```
 
 ### Setup your Library
